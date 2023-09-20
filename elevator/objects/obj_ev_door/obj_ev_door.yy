@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_frame_test",
+  "name": "obj_ev_door",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_frame_test",
-    "path": "sprites/spr_frame_test/spr_frame_test.yy",
+    "name": "spr_ev_door",
+    "path": "sprites/spr_ev_door/spr_ev_door.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -22,8 +22,15 @@
     "IDEVersion": "2023.8.0.98",
   },
   "resources": [
+    {"id":{"name":"obj_ev_door","path":"objects/obj_ev_door/obj_ev_door.yy",},},
+    {"id":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},},
+    {"id":{"name":"obj_Button_Open","path":"objects/obj_Button_Open/obj_Button_Open.yy",},},
     {"id":{"name":"obj_frame_test","path":"objects/obj_frame_test/obj_frame_test.yy",},},
+    {"id":{"name":"spr_ev_door","path":"sprites/spr_ev_door/spr_ev_door.yy",},},
     {"id":{"name":"spr_frame_test","path":"sprites/spr_frame_test/spr_frame_test.yy",},},
+    {"id":{"name":"spr_Button_Open","path":"sprites/spr_Button_Open/spr_Button_Open.yy",},},
+    {"id":{"name":"obj_Button_Close","path":"objects/obj_Button_Close/obj_Button_Close.yy",},},
+    {"id":{"name":"spr_Button_Close","path":"sprites/spr_Button_Close/spr_Button_Close.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

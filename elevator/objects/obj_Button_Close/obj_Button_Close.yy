@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_frame_test",
+  "name": "obj_Button_Close",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_frame_test",
-    "path": "sprites/spr_frame_test/spr_frame_test.yy",
+    "name": "spr_Button_Close",
+    "path": "sprites/spr_Button_Close/spr_Button_Close.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -4,5 +4,13 @@
     {"name":"Room","order":4,"path":"folders/Room.yy",},
     {"name":"Sprites","order":5,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_ev_door","order":1,"path":"objects/obj_ev_door/obj_ev_door.yy",},
+    {"name":"obj_UI","order":2,"path":"objects/obj_UI/obj_UI.yy",},
+    {"name":"obj_Button_Open","order":3,"path":"objects/obj_Button_Open/obj_Button_Open.yy",},
+    {"name":"spr_ev_door","order":1,"path":"sprites/spr_ev_door/spr_ev_door.yy",},
+    {"name":"spr_Button_Open","order":2,"path":"sprites/spr_Button_Open/spr_Button_Open.yy",},
+    {"name":"obj_Button_Close","order":4,"path":"objects/obj_Button_Close/obj_Button_Close.yy",},
+    {"name":"spr_Button_Close","order":3,"path":"sprites/spr_Button_Close/spr_Button_Close.yy",},
+  ],
 }

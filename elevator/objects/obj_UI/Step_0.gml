@@ -1,0 +1,1 @@
+_index = obj_ev_door.image_index;
