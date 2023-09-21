@@ -1,10 +1,11 @@
 if (position_meeting(mouse_x,mouse_y,self)) {
 	
-	self.image_index = 1;
+	//self.image_index = 1;
 	
 	if (mouse_check_button_pressed(mb_left)) {
 		
 		show_debug_message("Open")
+		obj_ev_door.ev_state = 1;
 	}
 		
-} else	{self.image_index = 0;}
+} //else	{self.image_index = 0;}
