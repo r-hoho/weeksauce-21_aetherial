@@ -4,11 +4,9 @@ if (position_meeting(mouse_x,mouse_y,self)) {
 	
 	if (mouse_check_button_pressed(mb_left)) {
 		
-		show_debug_message("Open")
-		
-		if (obj_ev_door.ev_door < 2) {  //if closed or moving
-		obj_ev_door.ev_state = 1;
-		}
+		show_debug_message("UP")
+		//obj_ev_door.ev_state = 2;
 	}
+		
 		
 } else	{self.image_index = 0;}

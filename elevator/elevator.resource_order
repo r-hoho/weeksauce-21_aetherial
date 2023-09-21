@@ -5,12 +5,18 @@
     {"name":"Sprites","order":5,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_Button_up","order":6,"path":"objects/obj_Button_up/obj_Button_up.yy",},
     {"name":"obj_ev_door","order":1,"path":"objects/obj_ev_door/obj_ev_door.yy",},
+    {"name":"obj_Button_down","order":7,"path":"objects/obj_Button_down/obj_Button_down.yy",},
     {"name":"obj_UI","order":2,"path":"objects/obj_UI/obj_UI.yy",},
+    {"name":"obj_floor_no","order":5,"path":"objects/obj_floor_no/obj_floor_no.yy",},
     {"name":"obj_Button_Open","order":3,"path":"objects/obj_Button_Open/obj_Button_Open.yy",},
     {"name":"spr_ev_door","order":1,"path":"sprites/spr_ev_door/spr_ev_door.yy",},
+    {"name":"spr_Button_up","order":5,"path":"sprites/spr_Button_up/spr_Button_up.yy",},
     {"name":"spr_Button_Open","order":2,"path":"sprites/spr_Button_Open/spr_Button_Open.yy",},
+    {"name":"spr_floor_no","order":4,"path":"sprites/spr_floor_no/spr_floor_no.yy",},
     {"name":"obj_Button_Close","order":4,"path":"objects/obj_Button_Close/obj_Button_Close.yy",},
+    {"name":"spr_Button_down","order":6,"path":"sprites/spr_Button_down/spr_Button_down.yy",},
     {"name":"spr_Button_Close","order":3,"path":"sprites/spr_Button_Close/spr_Button_Close.yy",},
   ],
 }
