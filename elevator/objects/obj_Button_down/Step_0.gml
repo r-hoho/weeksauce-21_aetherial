@@ -6,7 +6,11 @@ if (position_meeting(mouse_x,mouse_y,self)) {
 		
 		show_debug_message("Down")
 		//obj_ev_door.ev_state = 2;
+		
+		obj_ev_door.ev_state = "down";
 	}
 		
 		
 } else	{self.image_index = 0;}
+
+y = 808 - ( 830 - obj_ev_door.y)

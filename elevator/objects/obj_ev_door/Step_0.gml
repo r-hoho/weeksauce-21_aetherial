@@ -26,3 +26,21 @@ if (ev_state == 2) {
 		}
 	
 }
+
+if (ev_state == "up") {
+	
+	if (y >= 240) {
+	
+		y -= 10;
+	}
+	
+}
+
+if (ev_state == "down") {
+	
+	if (y <= 830) {
+	
+		y += 10;
+	}
+	
+}
