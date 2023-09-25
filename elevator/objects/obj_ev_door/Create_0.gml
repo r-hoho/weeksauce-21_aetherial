@@ -1,6 +1,6 @@
 image_speed = 0;
 
-ev_state = 0;
+ev_state = "idle";
 
 //0 = idle
 //1 = opening
@@ -8,7 +8,7 @@ ev_state = 0;
 //3 = up
 //4 = down
 
-ev_door = 0;
+ev_door = "fully_closed";
 
 //0 = fully_closed
 //1 = moving

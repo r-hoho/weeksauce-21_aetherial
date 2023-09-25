@@ -6,8 +6,8 @@ if (position_meeting(mouse_x,mouse_y,self)) {
 		
 		show_debug_message("Open")
 		
-		if (obj_ev_door.ev_door < 2) {  //if closed or moving
-		obj_ev_door.ev_state = 1;
+		if (obj_ev_door.ev_door == "fully_closed" || obj_ev_door.ev_door == "moving") {  //if closed or moving
+		obj_ev_door.ev_state = "opening";
 		}
 	}
 		

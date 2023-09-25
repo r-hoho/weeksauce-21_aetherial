@@ -1,28 +1,28 @@
 
 
-if (ev_state == 1) {
+if (ev_state == "opening") {
 	
 	image_index += 5/60;
-	ev_door = 1
+	ev_door = "moving"
 	
 	if (image_index >= 6) {
 		
-		ev_state = 0
-		ev_door = 2 //fully open
+		ev_state = "idle"
+		ev_door = "fully_opened" //fully open
 		
 		}
 	
 }
 
-if (ev_state == 2) {
+if (ev_state == "closing") {
 	
 	image_index -= 5/60;
-	ev_door = 1
+	ev_door = "moving"
 	
 	if (image_index <= 0.5) {
 		
-		ev_state = 0
-		ev_door = 0 //fully closed
+		ev_state = "idle"
+		ev_door = "fully_closed" //fully closed
 		}
 	
 }
