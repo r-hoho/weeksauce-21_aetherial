@@ -1,3 +1,5 @@
+y += (obj_ev_moving.move_y);
+
 if (position_meeting(mouse_x,mouse_y,self)) {
 	
 	self.image_index = 1;

@@ -21,6 +21,19 @@ if (distanceToTarget > move_spd) {
     y = target_y;
 }
 
+if (place_meeting(x,y,obj_ev_floor)) {
+	
+	pos = "in"
+	
+}
+
+if (pos == "in") {
+	
+	y += (obj_ev_moving.move_y)*1 ;
+	target_y = y;
+	
+}
+
 
 		
 		

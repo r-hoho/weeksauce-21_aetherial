@@ -13,4 +13,4 @@ if (position_meeting(mouse_x,mouse_y,self)) {
 		
 } else	{self.image_index = 0;}
 
-y = 808 - ( 830 - obj_ev_door.y)
+y += (obj_ev_moving.move_y);

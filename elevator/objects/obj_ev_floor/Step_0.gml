@@ -1,0 +1,1 @@
+y += (obj_ev_moving.move_y);

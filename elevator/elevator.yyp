@@ -39,6 +39,7 @@
     {"id":{"name":"spr_ev_door","path":"sprites/spr_ev_door/spr_ev_door.yy",},},
     {"id":{"name":"spr_Button_up","path":"sprites/spr_Button_up/spr_Button_up.yy",},},
     {"id":{"name":"obj_Pass_Parent","path":"objects/obj_Pass_Parent/obj_Pass_Parent.yy",},},
+    {"id":{"name":"obj_ev_moving","path":"objects/obj_ev_moving/obj_ev_moving.yy",},},
     {"id":{"name":"spr_frame_test","path":"sprites/spr_frame_test/spr_frame_test.yy",},},
     {"id":{"name":"spr_Button_Open","path":"sprites/spr_Button_Open/spr_Button_Open.yy",},},
     {"id":{"name":"spr_EV_Block","path":"sprites/spr_EV_Block/spr_EV_Block.yy",},},

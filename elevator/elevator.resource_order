@@ -21,6 +21,7 @@
     {"name":"spr_ev_door","order":1,"path":"sprites/spr_ev_door/spr_ev_door.yy",},
     {"name":"spr_Button_up","order":5,"path":"sprites/spr_Button_up/spr_Button_up.yy",},
     {"name":"obj_Pass_Parent","order":1,"path":"objects/obj_Pass_Parent/obj_Pass_Parent.yy",},
+    {"name":"obj_ev_moving","order":12,"path":"objects/obj_ev_moving/obj_ev_moving.yy",},
     {"name":"spr_Button_Open","order":2,"path":"sprites/spr_Button_Open/spr_Button_Open.yy",},
     {"name":"spr_EV_Block","order":9,"path":"sprites/spr_EV_Block/spr_EV_Block.yy",},
     {"name":"spr_floor_no","order":4,"path":"sprites/spr_floor_no/spr_floor_no.yy",},
