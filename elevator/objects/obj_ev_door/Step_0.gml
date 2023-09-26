@@ -9,6 +9,7 @@ if (ev_state == "opening") {
 		
 		ev_state = "idle"
 		ev_door = "fully_opened" //fully open
+		instance_destroy(obj_ev_block)
 		
 		}
 	
@@ -23,6 +24,11 @@ if (ev_state == "closing") {
 		
 		ev_state = "idle"
 		ev_door = "fully_closed" //fully closed
+		
+		var _block = instance_create_layer(72,680,"Frame_Test",obj_ev_block)
+		
+		_block.image_xscale = 2.5;
+		_block.image_yscale = 5;
 		}
 	
 }

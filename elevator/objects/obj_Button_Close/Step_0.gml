@@ -8,6 +8,8 @@ if (position_meeting(mouse_x,mouse_y,self)) {
 		
 		if (obj_ev_door.ev_door == "fully_opened" || obj_ev_door.ev_door == "moving") {  //if door moving or open
 		obj_ev_door.ev_state = "closing";
+		
+		
 		}
 	}
 		
