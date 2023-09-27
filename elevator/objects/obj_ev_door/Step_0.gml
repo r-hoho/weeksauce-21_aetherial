@@ -9,7 +9,10 @@ if (ev_state == "opening") {
 		
 		ev_state = "idle"
 		ev_door = "fully_opened" //fully open
-		instance_destroy(obj_ev_block)
+		
+		if (ev_current_fl == 1) {
+			instance_destroy(obj_ev_block)
+		}
 		
 		}
 	
@@ -39,7 +42,10 @@ if (ev_state == "up") {
 	
 		y += obj_ev_moving.move_y;
 		
-	} else { ev_state = "idle"}
+	} else { 
+		
+		ev_state = "idle"
+		ev_current_fl = 2; }
 	
 }
 
@@ -49,6 +55,9 @@ if (ev_state == "down") {
 	
 		y += obj_ev_moving.move_y;
 		
-	} else { ev_state = "idle"}
+	} else { 
+		
+		ev_state = "idle"
+		ev_current_fl = 1;}
 	
 }

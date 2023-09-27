@@ -14,6 +14,9 @@ ev_door = "fully_closed";
 //1 = moving
 //2 = fully_opened
 
+ev_current_fl = 1;
+
+
 
 ev_target_pos_y_up = 240;
 ev_target_pos_y_down = 830;
