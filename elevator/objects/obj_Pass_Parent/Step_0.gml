@@ -25,6 +25,8 @@ if (distanceToTarget > move_spd) {
 if (place_meeting(x,y,obj_ev_floor)) {
 	
 	pos = "in"
+	obj_ev_moving.pass_total_weight += pass_weight
+	pass_weight = 0;
 	
 }
 
