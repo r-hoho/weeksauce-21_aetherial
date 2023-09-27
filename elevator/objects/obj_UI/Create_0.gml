@@ -4,3 +4,5 @@ _state = 0;
 _doorState = 0;
 
 _fl = 1;
+
+_done = 0;

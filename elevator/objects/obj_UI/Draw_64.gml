@@ -6,3 +6,5 @@ draw_text(10,75,"Door_State: "+_doorState);
 
 draw_text(10,100,"FL: "+string(_fl));
 
+draw_text(10,125,"Done: "+string(_done));
+
