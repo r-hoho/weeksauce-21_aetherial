@@ -18,5 +18,5 @@ ev_current_fl = 1;
 
 
 
-ev_target_pos_y_up = 240;
-ev_target_pos_y_down = 830;
+ev_target_pos_y_up = 200;
+ev_target_pos_y_down = 1376;

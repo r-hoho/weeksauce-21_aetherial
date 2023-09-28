@@ -3,8 +3,8 @@ target_y = 0;
 move_spd = 5;
 move_spd_default = 5;
 
-door_block_x = 80;
-door_block_y = 935;
+door_block_x = 100;
+door_block_y = 1450;
 
 pos = "out"
 

@@ -28,7 +28,7 @@ if (ev_state == "closing") {
 		ev_state = "idle"
 		ev_door = "fully_closed" //fully closed
 		
-		var _block = instance_create_layer(24,680,"Frame_Test",obj_ev_block)
+		var _block = instance_create_layer(56,1184,"Frame_Test",obj_ev_block)
 		
 		_block.image_xscale = 2.5;
 		_block.image_yscale = 5;
@@ -38,7 +38,7 @@ if (ev_state == "closing") {
 
 if (ev_state == "up") {
 	
-	if (y >= 240) { 
+	if (y >= ev_target_pos_y_up) { 
 	
 		y += obj_ev_moving.move_y;
 		
@@ -51,7 +51,7 @@ if (ev_state == "up") {
 
 if (ev_state == "down") {
 	
-	if (y <= 830) {
+	if (y <= ev_target_pos_y_down) {
 	
 		y += obj_ev_moving.move_y;
 		
