@@ -7,5 +7,5 @@ door_block_y = 935;
 
 pos = "out"
 
-pass_weight = 1;
-pass_weight_default = 1;
+pass_weight = 0.1;
+pass_weight_default = 0.1;

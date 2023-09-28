@@ -1,3 +1,6 @@
+if (ev_spd <= ev_spd_min) { ev_spd = ev_spd_min}
+if (ev_spd >= ev_spd_max) { ev_spd = ev_spd_max}
+
 if (obj_ev_door.ev_state == "up") {
 	 
 	if (ev_spd_adj == false) {
