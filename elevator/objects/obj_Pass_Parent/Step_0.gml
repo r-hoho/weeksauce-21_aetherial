@@ -5,14 +5,21 @@ if (distanceToTarget > move_spd) {
 		
 		if (!place_meeting(x,y,obj_ev_block)){
 		
+			
 			move_towards_point(target_x, target_y, move_spd);
 		
 		} else {
 			
-			show_debug_message("Hit")
-			x = door_block_x;
-			y = door_block_y;
+			if (in_queue == false) {
+			    
+				obj_UI._queue += 1;
+				in_queue = true;
+				move_spd = 0;
+			}
 			
+			x = door_block_x - (obj_UI._queue * 25)+25;
+			y = door_block_y;
+			//move_spd = move_spd_default;
 		}
 	
 } else {
@@ -22,9 +29,19 @@ if (distanceToTarget > move_spd) {
 	
 }
 
+if (obj_ev_door.ev_current_fl == 1) && (obj_ev_door.ev_door == "fully_opened") {
+	move_spd = move_spd_default;
+}
+
 if (place_meeting(x,y,obj_ev_floor)) {
 	
+	if (in_queue == true) {
+	    obj_UI._queue -= 1
+		in_queue = false
+	}
+	
 	pos = "in"
+	
 	obj_ev_moving.pass_total_weight += pass_weight
 	pass_weight = 0;
 	

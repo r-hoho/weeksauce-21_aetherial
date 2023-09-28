@@ -12,3 +12,5 @@ draw_text(10,150,"Weight: "+string(_weight));
 
 draw_text(10,175,"spd: "+string(_ev_spd));
 
+draw_text(10,200,"queue: "+string(_queue));
+

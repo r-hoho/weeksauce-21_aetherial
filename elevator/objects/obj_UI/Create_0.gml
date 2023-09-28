@@ -10,3 +10,5 @@ _done = 0;
 _weight = 0;
 
 _ev_spd = 0;
+
+_queue = 0;
