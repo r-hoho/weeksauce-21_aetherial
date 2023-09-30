@@ -12,3 +12,5 @@ _weight = 0;
 _ev_spd = 0;
 
 _queue = 0;
+
+_wave = 0;

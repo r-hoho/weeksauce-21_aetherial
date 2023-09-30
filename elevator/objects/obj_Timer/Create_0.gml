@@ -1,1 +1,4 @@
-time_limit = 3;
+time_limit = 5;
+wave = 1;
+
+endgame = false;
