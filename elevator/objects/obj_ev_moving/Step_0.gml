@@ -13,7 +13,7 @@ if (obj_ev_door.ev_state == "up") {
 	
 }
 
-if (obj_ev_door.ev_state == "down") {
+if (obj_ev_door.ev_state == "down")  { //&& obj_ev_door.ev_current_fl != 1
 	
 	move_y = +ev_spd;
 	

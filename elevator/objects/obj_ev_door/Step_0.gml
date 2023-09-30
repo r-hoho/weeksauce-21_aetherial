@@ -44,8 +44,10 @@ if (ev_state == "up") {
 		
 	} else { 
 		
+		audio_play_sound(snd_Bell,1,false);
 		ev_state = "idle"
 		ev_current_fl = 2; }
+		
 	
 }
 
@@ -57,7 +59,9 @@ if (ev_state == "down") {
 		
 	} else { 
 		
+		audio_play_sound(snd_Bell,1,false);
 		ev_state = "idle"
-		ev_current_fl = 1;}
+		ev_current_fl = 1}
+		
 	
 }
