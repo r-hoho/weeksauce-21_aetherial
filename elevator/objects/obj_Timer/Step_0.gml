@@ -12,14 +12,16 @@ if (time_limit <= 0) {
 	if (endgame != "done") {endgame = true}
 	//instance_destroy(self);
 	instance_destroy(obj_Pass_Done);
-}
-
-if (time_limit <= 20) {
 	
-	//wave = 2;
-}
+} else if 
 
-if (time_limit <= 10) {
+	(time_limit <= 35) {
 	
-	//wave = 3;
+	wave = 3;
+	
+} else if 
+
+	(time_limit <= 70) {
+	
+	wave = 2;
 }

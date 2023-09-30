@@ -2,15 +2,18 @@ timer += 1;
 
 switch (obj_Timer.wave) {
     case 1:
-        spawn_set = choose(obj_Pass_5);
+        spawn_set = choose(obj_Pass_1,obj_Pass_2,);	
+		spawn_timer = 60*2
         break;
 		
 	case 2:
-        //spawn_set = choose(obj_Pass_3);
+        spawn_set = choose(obj_Pass_1,obj_Pass_2,obj_Pass_3);
+		spawn_timer = 60*3
         break;
 		
 	case 3:
-        //spawn_set = choose(obj_Pass_4);
+		spawn_set = choose(obj_Pass_3,obj_Pass_4,obj_Pass_5);
+		spawn_timer = 60*4
         break;	
 }
 
