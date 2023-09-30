@@ -16,10 +16,10 @@ if (time_limit <= 0) {
 
 if (time_limit <= 20) {
 	
-	wave = 2;
+	//wave = 2;
 }
 
 if (time_limit <= 10) {
 	
-	wave = 3;
+	//wave = 3;
 }
