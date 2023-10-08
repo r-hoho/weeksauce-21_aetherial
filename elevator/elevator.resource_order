@@ -41,6 +41,7 @@
     {"name":"spr_Pass_Done","order":10,"path":"sprites/spr_Pass_Done/spr_Pass_Done.yy",},
     {"name":"spr_Button_Open","order":2,"path":"sprites/spr_Button_Open/spr_Button_Open.yy",},
     {"name":"spr_EV_Block","order":9,"path":"sprites/spr_EV_Block/spr_EV_Block.yy",},
+    {"name":"obj_ev_door_Dec","order":7,"path":"objects/obj_ev_door_Dec/obj_ev_door_Dec.yy",},
     {"name":"obj_Pass_5","order":6,"path":"objects/obj_Pass_5/obj_Pass_5.yy",},
     {"name":"spr_floor_no","order":4,"path":"sprites/spr_floor_no/spr_floor_no.yy",},
     {"name":"obj_Button_Close","order":4,"path":"objects/obj_Button_Close/obj_Button_Close.yy",},
