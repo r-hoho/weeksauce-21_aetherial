@@ -20,3 +20,22 @@ ev_current_fl = 1;
 
 ev_target_pos_y_up = 200;
 ev_target_pos_y_down = 1376;
+
+//_open = function() {
+	
+//	ev_state = "opening";
+//}
+
+function open() {
+	obj_ev_door.ev_state = "opening";
+}
+	
+
+//qsignal_listen("s_open",function(){
+	
+	//ev_state = "opening";
+//});
+
+qsignal_listen("s_open",open); 
+
+move_and_collide()

@@ -7,6 +7,8 @@
     {"name":"Room","order":4,"path":"folders/Room.yy",},
     {"name":"Sprites","order":5,"path":"folders/Sprites.yy",},
     {"name":"Passenger","order":8,"path":"folders/Sprites/Passenger.yy",},
+    {"name":"Scripts","order":1,"path":"folders/Scripts/QSignals/Scripts.yy",},
+    {"name":"Scripts","order":10,"path":"folders/Scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_roof","order":5,"path":"objects/obj_roof/obj_roof.yy",},
@@ -15,6 +17,7 @@
     {"name":"obj_Timer","order":3,"path":"objects/obj_Timer/obj_Timer.yy",},
     {"name":"obj_GM_Counter","order":1,"path":"objects/obj_GM_Counter/obj_GM_Counter.yy",},
     {"name":"spr_ev_floor","order":7,"path":"sprites/spr_ev_floor/spr_ev_floor.yy",},
+    {"name":"__qsignals_manager_class","order":1,"path":"scripts/__qsignals_manager_class/__qsignals_manager_class.yy",},
     {"name":"obj_Button_down","order":7,"path":"objects/obj_Button_down/obj_Button_down.yy",},
     {"name":"obj_Pass_2","order":2,"path":"objects/obj_Pass_2/obj_Pass_2.yy",},
     {"name":"obj_ev_floor","order":1,"path":"objects/obj_ev_floor/obj_ev_floor.yy",},
