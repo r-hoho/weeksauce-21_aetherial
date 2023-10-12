@@ -5,6 +5,8 @@
 
 weeksauce-15 game jam, "AETHERIAL REAMLS"  built under 15 hours over 7 days. 
 
+Playable on Browser: https://r-hoho.itch.io/aether-elevator
+
 Engine: GameMaker  
 Graphic: Aesprite
 
